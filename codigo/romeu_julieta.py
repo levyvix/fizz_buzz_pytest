@@ -1,4 +1,4 @@
-from typing import *
+from typing import Union
 
 
 def romeu_julieta(numero: int) -> Union[str, int]:
