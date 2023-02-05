@@ -9,5 +9,5 @@ def romeu_julieta(numero: int) -> Union[str, int]:
 
 
 if __name__ == "__main__":
-    resultados = [(numero, romeu_julieta(numero)) for numero in range(1, 101)]
-    print(resultados)
+    resultado = romeu_julieta(900)
+    print(resultado)
